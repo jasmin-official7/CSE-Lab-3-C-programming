@@ -1,7 +1,10 @@
-#index <stdio.h>
+#include <stdio.h>
 int main()
 {
- int n;
+ int n,a;
  printf("Enter a integer value:");
- scanf("%d",);	
+ scanf("%d",&n);	
+ a=n%10;
+ printf("The last digit of the integer is: %d",a);
+ return 0;
 }

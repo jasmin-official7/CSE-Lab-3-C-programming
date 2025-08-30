@@ -2,7 +2,7 @@
 #include <math.h>
 int main()
 {
- float ci,r,p,t,k,cee;
+ float ci,r,p,t,k,x;
  printf("Enter principle value:");
  scanf("%f",&p);
  printf("\nEnter rate of interest:");
@@ -10,8 +10,8 @@ int main()
  printf("\nEnter time:");
  scanf("%f",&t);
  k=(1+r);
- ci=pow(k,t);
- cee=p*ci;
- printf("\nthe compount interest is:%.2f",cee);
+ x=pow(k,t);
+ ci=p*x;
+ printf("\nthe compount interest is:%.2f",ci);
  return 0;
 }

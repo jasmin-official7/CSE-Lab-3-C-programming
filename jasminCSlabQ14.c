@@ -3,9 +3,9 @@
 int main() 
 {
     float a,b;
-    printf("Enter positive integer value:");
+    printf("Enter positive num value:");
     scanf("%f",&a);
-    printf("Enter negative integer value:");
+    printf("Enter negative num value:");
     scanf("%f",&b);
     printf("\nFloor value for positive num a:%.2f",floor(a));
     printf("\nCeil value for positive num a:%.2f",ceil(a));

@@ -16,7 +16,7 @@ switch(x)
     case 'i':
     case 'o':
     case 'u':
-      printf("%c is a VOWEL.\n", x);
+      printf("%c is a vowel.\n", x);
       break;
 	default:printf("%c is a consonant",x);
 }

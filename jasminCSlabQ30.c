@@ -8,7 +8,7 @@ printf("Enter english marks:");
 scanf("%d",&english);
 printf("Enter physics marks:");
 scanf("%d",&physics);
-printf("Enter maths marks:");
+printf("Enter biology marks:");
 scanf("%d",&biology);
 printf("Enter chemistry marks:");
 scanf("%d",&chemistry);
@@ -34,3 +34,4 @@ else if(avg<=40){
 return 0;
 }
 	
+

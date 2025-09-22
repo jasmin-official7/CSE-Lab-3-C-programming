@@ -13,7 +13,8 @@ int main() {
         } else { 
             printf("%d is the maximum number.\n", num3);
         }
-    } else {
+    } 
+	else {
         if (num2 >= num3) { 
             printf("%d is the maximum number.\n", num2);
         } else { 
@@ -22,4 +23,5 @@ int main() {
     }
 
     return 0; 
+
 }

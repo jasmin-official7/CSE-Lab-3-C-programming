@@ -1,6 +1,5 @@
 #include<stdio.h>
-int main()
-{
+int main(){
     int totalcookies,cookiesperbox,boxespercontainer,totalboxes,totalcontainers,remainingcookies,remainingboxes;
     printf("Enter the total number of cookies: ");
     scanf("%d", &totalcookies);
@@ -18,4 +17,5 @@ int main()
     printf("\nRemaining boxes (not in a container): %d\n", remainingboxes);
     return 0;
 }
+
 
